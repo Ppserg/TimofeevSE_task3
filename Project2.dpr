@@ -31,10 +31,10 @@ var
 begin
   //¬вод значений массива
   for i := 1 to 10 do
-    MyArray[i-1] := i;
+    Readln(MyArray[i-1]);
 
   //¬вод искомого значени€
-  Value := 10;
+  Readln(Value);
 
   If IsUnique(MyArray, Value) Then
   Writeln('False')
